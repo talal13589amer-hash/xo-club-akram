@@ -140,7 +140,7 @@ export default function App() {
           <div className="absolute inset-0 opacity-20" style={{ background: `radial-gradient(ellipse at center, #C41E2F 0%, transparent 70%)` }} />
           <div className="relative w-full max-w-[560px] glass rounded-[24px] p-8 md:p-12 text-center overflow-hidden">
             <div className="absolute top-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-[#C9A96A] to-transparent opacity-60" />
-            <img src="/logo.png" alt="XO Club Akram Logo" className="w-44 h-44 md:w-52 md:h-52 mx-auto object-contain mb-6 drop-shadow-[0_0_22px_rgba(201,169,106,0.45)]" />
+            <img src={`${import.meta.env.BASE_URL}logo.png`} alt="XO Club Akram Logo" className="w-44 h-44 md:w-52 md:h-52 mx-auto object-contain mb-6 drop-shadow-[0_0_22px_rgba(201,169,106,0.45)]" />
             <h2 className="font-['Cinzel'] text-3xl tracking-[0.15em] text-[#F5E6C8]">{tr.age_gate_title}</h2>
             <p className="mt-3 text-sm text-[#9A8B86] leading-relaxed">{tr.age_gate_p}</p>
             <p className="mt-6 text-[11px] tracking-[0.3em] text-[#C9A96A]">CASABLANCA • EST. 2024</p>
@@ -157,7 +157,7 @@ export default function App() {
       <nav className="fixed top-0 inset-x-0 z-50 border-b border-white/[0.06] bg-[#080608]/70 backdrop-blur-2xl">
         <div className="max-w-[1280px] mx-auto px-6 h-[72px] flex items-center justify-between gap-6">
           <a href="#" className="flex items-center gap-3 shrink-0">
-            <img src="/logo.png" alt="XO Club Akram" className="w-12 h-12 md:w-14 md:h-14 object-contain drop-shadow-[0_0_10px_rgba(201,169,106,0.3)]" />
+            <img src={`${import.meta.env.BASE_URL}logo.png`} alt="XO Club Akram" className="w-12 h-12 md:w-14 md:h-14 object-contain drop-shadow-[0_0_10px_rgba(201,169,106,0.3)]" />
             <div className="leading-none hidden sm:block">
               <div className="font-['Cinzel'] text-[15px] tracking-[0.25em] text-[#F5E6C8]">XO CLUB</div>
               <div className="text-[10px] tracking-[0.4em] text-[#C9A96A] font-light">AKRAM</div>
@@ -273,7 +273,7 @@ export default function App() {
               <div className="space-y-4">
                 <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=600&q=80" alt="Bottle" className="rounded-[24px] h-[200px] object-cover w-full" />
                 <div className="rounded-[24px] bg-[#C41E2F] p-6 text-white flex flex-col items-start">
-                  <img src="/logo.png" alt="XO Logo" className="w-16 h-16 rounded-full object-cover border-2 border-white/20" />
+                  <img src={`${import.meta.env.BASE_URL}logo.png`} alt="XO Logo" className="w-16 h-16 rounded-full object-cover border-2 border-white/20" />
                   <div className="text-xs tracking-[0.3em] opacity-80 mt-3">EST. 2024 • CORNICHE</div>
                   <div className="mt-3 text-sm opacity-90 leading-relaxed">Where every night is curated as a private ceremony.</div>
                 </div>
@@ -576,7 +576,7 @@ export default function App() {
           <div className="flex flex-col md:flex-row justify-between gap-8">
             <div>
               <div className="flex items-center gap-3">
-                <img src="/logo.png" alt="XO Club Akram" className="w-10 h-10 rounded-full object-cover border border-[#C9A96A]/30" />
+                <img src={`${import.meta.env.BASE_URL}logo.png`} alt="XO Club Akram" className="w-10 h-10 rounded-full object-cover border border-[#C9A96A]/30" />
                 <span className="font-['Cinzel'] tracking-[0.25em] text-[#F5E6C8] text-sm">XO CLUB AKRAM</span>
               </div>
               <p className="mt-4 max-w-[360px] text-xs leading-relaxed text-[#6B5E5A]">{tr.footer_p} <br />Corniche Casablanca • Dress to impress • 18+ • Drink responsibly.</p>

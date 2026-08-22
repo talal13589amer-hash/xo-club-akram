@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  base: '/xo-club-akram/',
+  base: process.env.NODE_ENV === 'production' ? '/xo-club-akram/' : '/',
   plugins: [react(), tailwindcss()],
 })
