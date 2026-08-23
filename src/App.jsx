@@ -426,7 +426,7 @@ export default function App() {
           <div className="grid grid-cols-2 gap-4">
             <img src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=600&q=80" alt="Bar" className="rounded-[24px] h-[360px] object-cover w-full" />
             <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=600&q=80" alt="Cocktail" className="rounded-[24px] h-[360px] object-cover w-full" />
-            <img src="https://images.unsplash.com/photo-1513103531294-3823f322757d?w=800&q=80" alt="Crowd" className="rounded-[24px] h-[220px] object-cover w-full col-span-2" />
+            <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=800&q=80" alt="Crowd dancing at XO" className="rounded-[24px] h-[220px] object-cover w-full col-span-2" />
           </div>
         </div>
       </section>
