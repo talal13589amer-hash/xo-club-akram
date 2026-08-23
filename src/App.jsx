@@ -449,6 +449,13 @@ export default function App() {
                 <a href="https://wa.me/212507773051" target="_blank" className="px-4 py-2 bg-[#25D366] text-white rounded-full text-[11px] tracking-widest font-bold hover:bg-[#128C7E] transition">WHATSAPP</a>
               </div>
               <div className="flex items-center gap-4 glass rounded-2xl px-6 py-4">
+                <span className="w-10 h-10 rounded-full bg-[#120a0c] border border-[#C9A96A]/20 flex items-center justify-center text-[#C9A96A]">✉</span>
+                <div>
+                  <div className="text-white tracking-widest text-xs">EMAIL</div>
+                  <a href="mailto:akramassaad-a@gmail.com" className="text-[#C9A96A] hover:text-white transition text-sm">akramassaad-a@gmail.com</a>
+                </div>
+              </div>
+              <div className="flex items-center gap-4 glass rounded-2xl px-6 py-4">
                 <span className="w-10 h-10 rounded-full bg-[#120a0c] border border-[#C9A96A]/20 flex items-center justify-center text-[#C9A96A]">◷</span>
                 <div>
                   <div className="text-white tracking-widest text-xs">RESPONSE TIME</div>
@@ -553,6 +560,10 @@ export default function App() {
               <span className="text-[#F5E6C8] tracking-[0.2em] font-semibold">0507773051</span>
               <span className="text-[#9A8B86] text-xs hidden sm:inline">• Tap to call / WhatsApp</span>
             </a>
+            <a href="mailto:akramassaad-a@gmail.com" className="mt-3 inline-flex items-center gap-3 glass rounded-full px-6 py-3 border border-[#C9A96A]/20">
+              <span className="w-8 h-8 rounded-full bg-[#120a0c] border border-[#C9A96A]/20 flex items-center justify-center text-[#C9A96A] text-xs">✉</span>
+              <span className="text-[#F5E6C8] tracking-wide font-medium text-sm">akramassaad-a@gmail.com</span>
+            </a>
             <div className="mt-8 flex flex-wrap gap-3">
               <a href="https://maps.google.com/?q=Corniche+Casablanca" target="_blank" className="px-6 py-3 rounded-full bg-white text-black text-xs tracking-widest font-bold">OPEN IN MAPS →</a>
               <a href="https://instagram.com" target="_blank" className="px-6 py-3 rounded-full border border-white/15 text-white text-xs tracking-widest">INSTAGRAM @XOCLUBAKRAM</a>
@@ -581,6 +592,7 @@ export default function App() {
               </div>
               <p className="mt-4 max-w-[360px] text-xs leading-relaxed text-[#6B5E5A]">{tr.footer_p} <br />Corniche Casablanca • Dress to impress • 21+ • Drink responsibly.</p>
               <a href="tel:0507773051" className="mt-4 inline-flex items-center gap-2 text-[#C9A96A] text-sm tracking-widest hover:text-white transition">✆ 0507773051</a>
+              <a href="mailto:akramassaad-a@gmail.com" className="mt-2 block text-[#C9A96A] text-sm hover:text-white transition">✉ akramassaad-a@gmail.com</a>
             </div>
             <div className="flex gap-12 text-xs">
               <div>
