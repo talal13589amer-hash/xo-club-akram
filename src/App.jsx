@@ -567,6 +567,7 @@ export default function App() {
             <div className="mt-8 flex flex-wrap gap-3">
               <a href="https://www.google.com/maps/place/Akram+night+club+dubai/@25.187438,55.268063,16z/data=!4m10!1m2!2m1!1sxo!3m6!1s0x3e5f6982774faedf:0x9d6bd21ddbae3456!8m2!3d25.187438!4d55.268063!15sCgJ4b1oEIgJ4b5IBCm5pZ2h0X2NsdWKaAURDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMnhzUTJOdGJIcFpiVkpHVG5wWk0xTkZSa1ZqVjFvMFRsZFpkRnB0WXhBQuABAPoBBAgAEDs!16s%2Fg%2F11l73vfdsr" target="_blank" className="px-6 py-3 rounded-full bg-white text-black text-xs tracking-widest font-bold">OPEN IN MAPS →</a>
               <a href="https://instagram.com" target="_blank" className="px-6 py-3 rounded-full border border-white/15 text-white text-xs tracking-widest">INSTAGRAM @XOCLUBAKRAM</a>
+              <a href="https://snapchat.com/t/FrdhD3GW" target="_blank" className="px-6 py-3 rounded-full bg-[#FFFC00] text-black text-xs tracking-widest font-bold">SNAPCHAT →</a>
             </div>
           </div>
           <div className="rounded-[32px] overflow-hidden border border-white/10 h-[360px] bg-[#120a0c] relative">
@@ -598,9 +599,9 @@ export default function App() {
               <div>
                 <div className="tracking-[0.3em] text-[#C9A96A] mb-4">FOLLOW</div>
                 <div className="space-y-2 text-[#9A8B86]">
-                  <a href="#" className="block hover:text-white">Instagram</a>
+                  <a href="https://instagram.com" target="_blank" className="block hover:text-white">Instagram</a>
                   <a href="#" className="block hover:text-white">TikTok</a>
-                  <a href="#" className="block hover:text-white">Snapchat</a>
+                  <a href="https://snapchat.com/t/FrdhD3GW" target="_blank" className="block hover:text-white">Snapchat →</a>
                 </div>
               </div>
               <div>
