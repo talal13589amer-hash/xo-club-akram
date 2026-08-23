@@ -10,8 +10,8 @@ const t = {
     cta_book: "Reserve Your Table",
     cta_explore: "Explore Events",
     age_gate_title: "XO CLUB AKRAM",
-    age_gate_p: "You must be 18+ to enter this sanctuary. Please confirm your age.",
-    age_gate_yes: "I AM 18+ — ENTER",
+    age_gate_p: "You must be 21+ to enter this sanctuary. Please confirm your age.",
+    age_gate_yes: "I AM 21+ — ENTER",
     age_gate_no: "Leave",
     experience_label: "— THE SANCTUARY —",
     experience_title: "AN ODE TO THE NIGHT",
@@ -54,8 +54,8 @@ const t = {
     cta_book: "احجز طاولتك",
     cta_explore: "استكشف الفعاليات",
     age_gate_title: "XO CLUB AKRAM",
-    age_gate_p: "يجب أن يكون عمرك 18+ لدخول هذا الملاذ. يرجى تأكيد عمرك.",
-    age_gate_yes: "عمري +18 — دخول",
+    age_gate_p: "يجب أن يكون عمرك 21+ لدخول هذا الملاذ. يرجى تأكيد عمرك.",
+    age_gate_yes: "عمري +21 — دخول",
     age_gate_no: "مغادرة",
     experience_label: "— الملاذ —",
     experience_title: "قصيدة لليل",
@@ -579,7 +579,7 @@ export default function App() {
                 <img src={`${import.meta.env.BASE_URL}logo.png`} alt="XO Club Akram" className="w-10 h-10 rounded-full object-cover border border-[#C9A96A]/30" />
                 <span className="font-['Cinzel'] tracking-[0.25em] text-[#F5E6C8] text-sm">XO CLUB AKRAM</span>
               </div>
-              <p className="mt-4 max-w-[360px] text-xs leading-relaxed text-[#6B5E5A]">{tr.footer_p} <br />Corniche Casablanca • Dress to impress • 18+ • Drink responsibly.</p>
+              <p className="mt-4 max-w-[360px] text-xs leading-relaxed text-[#6B5E5A]">{tr.footer_p} <br />Corniche Casablanca • Dress to impress • 21+ • Drink responsibly.</p>
               <a href="tel:0507773051" className="mt-4 inline-flex items-center gap-2 text-[#C9A96A] text-sm tracking-widest hover:text-white transition">✆ 0507773051</a>
             </div>
             <div className="flex gap-12 text-xs">
