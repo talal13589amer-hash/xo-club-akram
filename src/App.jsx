@@ -568,6 +568,7 @@ export default function App() {
               <a href="https://www.google.com/maps/place/Akram+night+club+dubai/@25.187438,55.268063,16z/data=!4m10!1m2!2m1!1sxo!3m6!1s0x3e5f6982774faedf:0x9d6bd21ddbae3456!8m2!3d25.187438!4d55.268063!15sCgJ4b1oEIgJ4b5IBCm5pZ2h0X2NsdWKaAURDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMnhzUTJOdGJIcFpiVkpHVG5wWk0xTkZSa1ZqVjFvMFRsZFpkRnB0WXhBQuABAPoBBAgAEDs!16s%2Fg%2F11l73vfdsr" target="_blank" className="px-6 py-3 rounded-full bg-white text-black text-xs tracking-widest font-bold">OPEN IN MAPS →</a>
               <a href="https://www.instagram.com/akram_xo_club_khaliji?igsh=ZHFmZW0ybDl4dTM4&utm_source=qr" target="_blank" className="px-6 py-3 rounded-full border border-white/15 text-white text-xs tracking-widest">INSTAGRAM @akram_xo_club_khaliji</a>
               <a href="https://snapchat.com/t/FrdhD3GW" target="_blank" className="px-6 py-3 rounded-full bg-[#FFFC00] text-black text-xs tracking-widest font-bold">SNAPCHAT →</a>
+              <a href="https://www.tiktok.com/@akramxoclubdubai?_r=1&_t=ZS-982B7cqZI4g" target="_blank" className="px-6 py-3 rounded-full bg-black border border-white/15 text-white text-xs tracking-widest">TIKTOK →</a>
             </div>
           </div>
           <div className="rounded-[32px] overflow-hidden border border-white/10 h-[360px] bg-[#120a0c] relative">
@@ -600,7 +601,7 @@ export default function App() {
                 <div className="tracking-[0.3em] text-[#C9A96A] mb-4">FOLLOW</div>
                 <div className="space-y-2 text-[#9A8B86]">
                   <a href="https://www.instagram.com/akram_xo_club_khaliji?igsh=ZHFmZW0ybDl4dTM4&utm_source=qr" target="_blank" className="block hover:text-white">Instagram →</a>
-                  <a href="#" className="block hover:text-white">TikTok</a>
+                  <a href="https://www.tiktok.com/@akramxoclubdubai?_r=1&_t=ZS-982B7cqZI4g" target="_blank" className="block hover:text-white">TikTok →</a>
                   <a href="https://snapchat.com/t/FrdhD3GW" target="_blank" className="block hover:text-white">Snapchat →</a>
                 </div>
               </div>
