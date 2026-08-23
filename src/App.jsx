@@ -6,7 +6,7 @@ const t = {
     hero_sub: "AKRAM PRESENTS",
     hero_title1: "WHERE NIGHT",
     hero_title2: "BECOMES LEGEND",
-    hero_p: "Casablanca's most exclusive nocturnal sanctuary. Dark luxury, crimson lights, unforgettable energy.",
+    hero_p: "Dubai's most exclusive nocturnal sanctuary. Dark luxury, crimson lights, unforgettable energy.",
     cta_book: "Reserve Your Table",
     cta_explore: "Explore Events",
     age_gate_title: "XO CLUB AKRAM",
@@ -16,7 +16,7 @@ const t = {
     experience_label: "— THE SANCTUARY —",
     experience_title: "AN ODE TO THE NIGHT",
     experience_p1: "XO Club Akram is not just a nightclub — it is a ritual. Hidden behind velvet curtains and crimson glow, we curate ecstasy for the chosen few.",
-    experience_p2: "Royal Noir architecture, bespoke cocktails, and world-class sound converge to create Casablanca's most coveted after-dark experience.",
+    experience_p2: "Royal Noir architecture, bespoke cocktails, and world-class sound converge to create Dubai's most coveted after-dark experience.",
     stats: ["500+ VIP NIGHTS", "30K+ GUESTS", "50+ WORLD DJS"],
     events_label: "UPCOMING RITUALS",
     events_title: "THIS WEEK AT XO",
@@ -38,11 +38,11 @@ const t = {
     form_success: "Request sent! Our concierge will contact you on WhatsApp within minutes.",
     contact_label: "FIND US",
     hours: "Open Thu — Sun • 10PM — 05AM",
-    address: "Corniche Casablanca, Anfa District • Valet & Private Entrance",
+    address: "Akram Night Club, Dubai, UAE • 25.187438, 55.268063 • Valet & Private Entrance",
     footer_p: "The night belongs to those who dare. Membership is a privilege, not a right.",
     blog_label: "JOURNAL NOIR",
     blog_title: "INSIDE XO",
-    blog_sub: "Stories, nights and secrets from Casablanca's most private club.",
+    blog_sub: "Stories, nights and secrets from Dubai's most private club.",
     blog_read: "Read Article →",
   },
   ar: {
@@ -50,7 +50,7 @@ const t = {
     hero_sub: "أكرم يقدم",
     hero_title1: "حيث يصبح",
     hero_title2: "الليل أسطورة",
-    hero_p: "الملاذ الليلي الأكثر حصرية في الدار البيضاء. فخامة داكنة، أضواء قرمزية، طاقة لا تُنسى.",
+    hero_p: "الملاذ الليلي الأكثر حصرية في دبي. فخامة داكنة، أضواء قرمزية، طاقة لا تُنسى.",
     cta_book: "احجز طاولتك",
     cta_explore: "استكشف الفعاليات",
     age_gate_title: "XO CLUB AKRAM",
@@ -60,7 +60,7 @@ const t = {
     experience_label: "— الملاذ —",
     experience_title: "قصيدة لليل",
     experience_p1: "إكس أو كلوب أكرم ليس مجرد ملهى ليلي — إنه طقس. خلف الستائر المخملية والتوهج القرمزي، نصنع النشوة للنخبة فقط.",
-    experience_p2: "هندسة رويال نوار، كوكتيلات فاخرة، وصوت عالمي يجتمعون ليخلقوا التجربة الليلية الأكثر طلباً في الدار البيضاء.",
+    experience_p2: "هندسة رويال نوار، كوكتيلات فاخرة، وصوت عالمي يجتمعون ليخلقوا التجربة الليلية الأكثر طلباً في دبي.",
     stats: ["+500 ليلة VIP", "+30 ألف ضيف", "+50 دي جي عالمي"],
     events_label: "الطقوس القادمة",
     events_title: "هذا الأسبوع في XO",
@@ -82,11 +82,11 @@ const t = {
     form_success: "تم الإرسال! سيتواصل معك فريقنا عبر واتساب خلال دقائق.",
     contact_label: "موقعنا",
     hours: "مفتوح الخميس — الأحد • 10 مساءً — 5 صباحاً",
-    address: "كورنيش الدار البيضاء، حي أنفا • خدمة صف السيارات ومدخل خاص",
+    address: "نادي أكرم الليلي، دبي، الإمارات • 25.187438, 55.268063 • خدمة صف السيارات ومدخل خاص",
     footer_p: "الليل ملك لمن يجرؤ. العضوية امتياز، وليست حقاً.",
     blog_label: "مجلة نوار",
     blog_title: "داخل XO",
-    blog_sub: "قصص وليالي وأسرار من أكثر نوادي الدار البيضاء خصوصية.",
+    blog_sub: "قصص وليالي وأسرار من أكثر نوادي دبي خصوصية.",
     blog_read: "← اقرأ المقال",
   }
 }
@@ -143,7 +143,7 @@ export default function App() {
             <img src={`${import.meta.env.BASE_URL}logo.png`} alt="XO Club Akram Logo" className="w-44 h-44 md:w-52 md:h-52 mx-auto object-contain mb-6 drop-shadow-[0_0_22px_rgba(201,169,106,0.45)]" />
             <h2 className="font-['Cinzel'] text-3xl tracking-[0.15em] text-[#F5E6C8]">{tr.age_gate_title}</h2>
             <p className="mt-3 text-sm text-[#9A8B86] leading-relaxed">{tr.age_gate_p}</p>
-            <p className="mt-6 text-[11px] tracking-[0.3em] text-[#C9A96A]">CASABLANCA • EST. 2024</p>
+            <p className="mt-6 text-[11px] tracking-[0.3em] text-[#C9A96A]">DUBAI • EST. 2024</p>
             <div className="mt-8 flex flex-col sm:flex-row gap-3">
               <button onClick={() => setAgePassed(true)} className="flex-1 py-4 bg-[#C41E2F] hover:bg-[#8B0A1A] text-white text-sm tracking-[0.2em] font-medium rounded-full transition"> {tr.age_gate_yes} </button>
               <button onClick={() => window.location.href = 'https://google.com'} className="flex-1 py-4 border border-[#C9A96A]/20 text-[#9A8B86] rounded-full text-sm hover:border-[#C9A96A]/40 transition">{tr.age_gate_no}</button>
@@ -204,7 +204,7 @@ export default function App() {
           <div>
             <div className="inline-flex items-center gap-4 border border-[#C9A96A]/30 rounded-full px-7 md:px-10 py-3.5 md:py-4 bg-black/50 backdrop-blur shadow-[0_0_32px_rgba(201,169,106,0.15)]">
               <span className="w-3.5 h-3.5 rounded-full bg-[#C41E2F] animate-pulse shadow-[0_0_12px_#C41E2F]" />
-              <span className="text-[13px] md:text-[17px] lg:text-[19px] tracking-[0.38em] font-semibold text-[#C9A96A]">{tr.hero_sub} • CASABLANCA</span>
+              <span className="text-[13px] md:text-[17px] lg:text-[19px] tracking-[0.38em] font-semibold text-[#C9A96A]">{tr.hero_sub} • DUBAI</span>
             </div>
             <h1 className="mt-8 font-['Cinzel'] leading-[0.85] tracking-[-0.02em]">
               <span className="block text-5xl md:text-7xl lg:text-[86px] font-normal text-white">{tr.hero_title1}</span>
@@ -258,8 +258,8 @@ export default function App() {
         {/* bottom marquee */}
         <div className="absolute bottom-0 inset-x-0 border-y border-[#C9A96A]/15 bg-black/40 backdrop-blur overflow-hidden py-3">
           <div className="flex animate-[marquee_20s_linear_infinite] whitespace-nowrap gap-12 text-[11px] tracking-[0.4em] text-[#C9A96A]/70">
-            <span>XO CLUB AKRAM • CASABLANCA • ROYAL NOIR • VELVET & CRIMSON • SELECTIVE DOOR • MEMBERS ONLY • </span>
-            <span>XO CLUB AKRAM • CASABLANCA • ROYAL NOIR • VELVET & CRIMSON • SELECTIVE DOOR • MEMBERS ONLY • </span>
+            <span>XO CLUB AKRAM • DUBAI • ROYAL NOIR • VELVET & CRIMSON • SELECTIVE DOOR • MEMBERS ONLY • </span>
+            <span>XO CLUB AKRAM • DUBAI • ROYAL NOIR • VELVET & CRIMSON • SELECTIVE DOOR • MEMBERS ONLY • </span>
           </div>
         </div>
       </section>
@@ -274,7 +274,7 @@ export default function App() {
                 <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=600&q=80" alt="Bottle" className="rounded-[24px] h-[200px] object-cover w-full" />
                 <div className="rounded-[24px] bg-[#C41E2F] p-6 text-white flex flex-col items-start">
                   <img src={`${import.meta.env.BASE_URL}logo.png`} alt="XO Logo" className="w-16 h-16 rounded-full object-cover border-2 border-white/20" />
-                  <div className="text-xs tracking-[0.3em] opacity-80 mt-3">EST. 2024 • CORNICHE</div>
+                  <div className="text-xs tracking-[0.3em] opacity-80 mt-3">EST. 2024 • DUBAI</div>
                   <div className="mt-3 text-sm opacity-90 leading-relaxed">Where every night is curated as a private ceremony.</div>
                 </div>
               </div>
@@ -552,7 +552,7 @@ export default function App() {
         <div className="max-w-[1280px] mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <div className="text-[11px] tracking-[0.4em] text-[#C9A96A]">{tr.contact_label}</div>
-            <h2 className="font-['Cinzel'] text-3xl text-white mt-3 tracking-widest">CORNICHE • ANFA</h2>
+            <h2 className="font-['Cinzel'] text-3xl text-white mt-3 tracking-widest">DUBAI • AKRAM NIGHT CLUB</h2>
             <p className="text-[#9A8B86] mt-4 leading-relaxed">{tr.address}</p>
             <p className="text-[#C9A96A] mt-2 text-sm tracking-widest">{tr.hours}</p>
             <a href="tel:0507773051" className="mt-4 inline-flex items-center gap-3 glass rounded-full px-6 py-3 border border-[#C9A96A]/20">
@@ -565,12 +565,12 @@ export default function App() {
               <span className="text-[#F5E6C8] tracking-wide font-medium text-sm">akramassaad-a@gmail.com</span>
             </a>
             <div className="mt-8 flex flex-wrap gap-3">
-              <a href="https://maps.google.com/?q=Corniche+Casablanca" target="_blank" className="px-6 py-3 rounded-full bg-white text-black text-xs tracking-widest font-bold">OPEN IN MAPS →</a>
+              <a href="https://www.google.com/maps/place/Akram+night+club+dubai/@25.187438,55.268063,16z/data=!4m10!1m2!2m1!1sxo!3m6!1s0x3e5f6982774faedf:0x9d6bd21ddbae3456!8m2!3d25.187438!4d55.268063!15sCgJ4b1oEIgJ4b5IBCm5pZ2h0X2NsdWKaAURDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMnhzUTJOdGJIcFpiVkpHVG5wWk0xTkZSa1ZqVjFvMFRsZFpkRnB0WXhBQuABAPoBBAgAEDs!16s%2Fg%2F11l73vfdsr" target="_blank" className="px-6 py-3 rounded-full bg-white text-black text-xs tracking-widest font-bold">OPEN IN MAPS →</a>
               <a href="https://instagram.com" target="_blank" className="px-6 py-3 rounded-full border border-white/15 text-white text-xs tracking-widest">INSTAGRAM @XOCLUBAKRAM</a>
             </div>
           </div>
           <div className="rounded-[32px] overflow-hidden border border-white/10 h-[360px] bg-[#120a0c] relative">
-            <iframe title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.055326231!2d-7.632!3d33.588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7cd5a6c8d7b0f%3A0x6c2f3b8c7c7c7c7c!2sCorniche%2C%20Casablanca!5e0!3m2!1sen!2sma!4v1700000000000" className="w-full h-full border-0 grayscale invert-[0.9] opacity-60" loading="lazy" />
+            <iframe title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.457!2d55.268063!3d25.187438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6982774faedf:0x9d6bd21ddbae3456!2sAkram%20night%20club%20dubai!5e0!3m2!1sen!2sae!4v1700000000000" className="w-full h-full border-0 grayscale invert-[0.9] opacity-60" loading="lazy" />
             <div className="absolute bottom-4 left-4 right-4 glass rounded-2xl p-4 flex items-center justify-between">
               <div>
                 <div className="font-['Cinzel'] text-white tracking-widest text-sm">XO CLUB AKRAM</div>
@@ -590,7 +590,7 @@ export default function App() {
                 <img src={`${import.meta.env.BASE_URL}logo.png`} alt="XO Club Akram" className="w-10 h-10 rounded-full object-cover border border-[#C9A96A]/30" />
                 <span className="font-['Cinzel'] tracking-[0.25em] text-[#F5E6C8] text-sm">XO CLUB AKRAM</span>
               </div>
-              <p className="mt-4 max-w-[360px] text-xs leading-relaxed text-[#6B5E5A]">{tr.footer_p} <br />Corniche Casablanca • Dress to impress • 21+ • Drink responsibly.</p>
+              <p className="mt-4 max-w-[360px] text-xs leading-relaxed text-[#6B5E5A]">{tr.footer_p} <br />Akram Night Club, Dubai • Dress to impress • 21+ • Drink responsibly.</p>
               <a href="tel:0507773051" className="mt-4 inline-flex items-center gap-2 text-[#C9A96A] text-sm tracking-widest hover:text-white transition">✆ 0507773051</a>
               <a href="mailto:akramassaad-a@gmail.com" className="mt-2 block text-[#C9A96A] text-sm hover:text-white transition">✉ akramassaad-a@gmail.com</a>
             </div>
@@ -614,7 +614,7 @@ export default function App() {
             </div>
           </div>
           <div className="mt-10 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between gap-4 text-[11px] tracking-widest text-[#3E3532]">
-            <span>© 2026 XO CLUB AKRAM — CASABLANCA. ALL RIGHTS RESERVED.</span>
+            <span>© 2026 XO CLUB AKRAM — DUBAI. ALL RIGHTS RESERVED.</span>
             <span>DESIGNED FOR THE NIGHT — صُمم لليل</span>
           </div>
         </div>
