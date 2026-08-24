@@ -99,10 +99,10 @@ const events = [
 ]
 
 const djs = [
-  { name: "DJ SOOKA", role: "Morocco", img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80" },
-  { name: "DJ DAHER", role: "Iraq", img: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=600&q=80" },
-  { name: "DJ EVAN", role: "Resident", img: `${import.meta.env.BASE_URL}dj-evan.png` },
-  { name: "DJ AL3ESSA", role: "Kuwait", img: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=600&q=80" },
+  { name: "DJ SOOKA", role: "Morocco", img: `${import.meta.env.BASE_URL}xoclubakramdjsoka.jpg` },
+  { name: "DJ DAHER", role: "Iraq", img: `${import.meta.env.BASE_URL}xoclubakramdjdaher.jpg` },
+  { name: "DJ EVAN", role: "Resident", img: `${import.meta.env.BASE_URL}xoclubakramdjevan.jpg` },
+  { name: "DJ AL3ESSA", role: "Kuwait", img: `${import.meta.env.BASE_URL}xoclubakramdjal3essa.jpg` },
 ]
 
 const vipTiers = [
