@@ -101,7 +101,7 @@ const events = [
 const djs = [
   { name: "DJ SOOKA", role: "Morocco", img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80" },
   { name: "DJ DAHER", role: "Iraq", img: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=600&q=80" },
-  { name: "DJ EVAN", role: "Resident", img: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=600&q=80" },
+  { name: "DJ EVAN", role: "Resident", img: `${import.meta.env.BASE_URL}dj-evan.png` },
   { name: "DJ AL3ESSA", role: "Kuwait", img: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=600&q=80" },
 ]
 
@@ -359,7 +359,7 @@ export default function App() {
             {djs.map(dj => (
               <div key={dj.name} className="group">
                 <div className="relative rounded-[28px] overflow-hidden aspect-[3/4] border border-white/5">
-                  <img src={dj.img} alt={dj.name} className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition duration-700" />
+                  <img src={dj.img} alt={dj.name} className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition duration-700" onError={(e)=>{e.currentTarget.onerror=null; e.currentTarget.src='https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=600&q=80'}} />
                   <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent" />
                   <div className="absolute bottom-0 inset-x-0 p-6">
                     <div className="font-['Cinzel'] text-white tracking-widest">{dj.name}</div>
