@@ -524,7 +524,7 @@ export default function App() {
             {[
               { tag: "NIGHTS", date: "15 AUG 2026", title: "Inside Crimson Ritual: How XO Reinvented Afro House in Casablanca", img: `${import.meta.env.BASE_URL}xo-dubai-wall.png`, excerpt: "Behind the velvet curtain — the story of our most legendary night." },
               { tag: "MIXOLOGY", date: "08 AUG 2026", title: "The Alchemy of XO: Akram's Secret Saffron Cocktail", img: "https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=600&q=80", excerpt: "Moroccan saffron, fig and amber — the creation of a signature." },
-              { tag: "CULTURE", date: "01 AUG 2026", title: "Dress Code Decoded: The Royal Noir Aesthetic", img: "https://images.unsplash.com/photo-1516450360452-9312abbf6f7e?w=600&q=80", excerpt: "Velvet, black and crimson — what to wear to be remembered." },
+              { tag: "CULTURE", date: "01 AUG 2026", title: "Dress Code Decoded: The Royal Noir Aesthetic", img: `${import.meta.env.BASE_URL}xoclubakramcrowd.JPG`, excerpt: "Velvet, black and crimson — what to wear to be remembered." },
             ].map(post => (
               <article key={post.title} className="group bg-[#120a0c] border border-white/5 rounded-[32px] overflow-hidden hover:border-[#C9A96A]/20 transition">
                 <div className="relative h-[220px] overflow-hidden">
