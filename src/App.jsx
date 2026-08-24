@@ -522,7 +522,7 @@ export default function App() {
           </div>
           <div className="mt-12 grid md:grid-cols-3 gap-8">
             {[
-              { tag: "NIGHTS", date: "15 AUG 2026", title: "Inside Crimson Ritual: How XO Reinvented Afro House in Casablanca", img: `${import.meta.env.BASE_URL}xo-dubai-wall.png`, excerpt: "Behind the velvet curtain — the story of our most legendary night." },
+              { tag: "NIGHTS", date: "15 AUG 2026", title: "Inside Crimson Ritual: How XO Reinvented Afro House in Casablanca", img: `${import.meta.env.BASE_URL}xoclubakramgallary.jpg`, excerpt: "Behind the velvet curtain — the story of our most legendary night." },
               { tag: "MIXOLOGY", date: "08 AUG 2026", title: "The Alchemy of XO: Akram's Secret Saffron Cocktail", img: "https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=600&q=80", excerpt: "Moroccan saffron, fig and amber — the creation of a signature." },
               { tag: "CULTURE", date: "01 AUG 2026", title: "Dress Code Decoded: The Royal Noir Aesthetic", img: `${import.meta.env.BASE_URL}xoclubakramcrowd.JPG`, excerpt: "Velvet, black and crimson — what to wear to be remembered." },
             ].map(post => (
