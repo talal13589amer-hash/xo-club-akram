@@ -92,10 +92,10 @@ const t = {
 }
 
 const events = [
-  { date: "FRI 29 AUG", title: "CRIMSON RITUAL", dj: "DJ AKRAM B2B MOONLIGHT", genre: "Afro House • Melodic", price: "From 300 MAD", img: `${import.meta.env.BASE_URL}xo-dubai-wall.png`, featured: true },
-  { date: "SAT 30 AUG", title: "VELOUR NOIR", dj: "LUNA & SOFIANE", genre: "Deep House • Vocals", price: "From 250 MAD", img: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=800&q=80" },
+  { date: "FRI 29 AUG", title: "CRIMSON RITUAL", dj: "DJ AKRAM B2B MOONLIGHT", genre: "Afro House • Melodic", price: "From 300 AED", img: `${import.meta.env.BASE_URL}xo-dubai-wall.png`, featured: true },
+  { date: "SAT 30 AUG", title: "VELOUR NOIR", dj: "LUNA & SOFIANE", genre: "Deep House • Vocals", price: "From 250 AED", img: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=800&q=80" },
   { date: "THU 04 SEP", title: "GOLDEN HOUR AFTER DARK", dj: "KARIM TULIP", genre: "Disco • Nu Soul", price: "Ladies Free till 11PM", img: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=800&q=80" },
-  { date: "FRI 05 SEP", title: "X O N Y X", dj: "SECRET GUEST (BERLIN)", genre: "Techno • Hypnotic", price: "Limited 400 MAD", img: "https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=800&q=80" },
+  { date: "FRI 05 SEP", title: "X O N Y X", dj: "SECRET GUEST (BERLIN)", genre: "Techno • Hypnotic", price: "Limited 400 AED", img: "https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=800&q=80" },
 ]
 
 const djs = [
@@ -106,16 +106,16 @@ const djs = [
 ]
 
 const vipTiers = [
-  { name: "LE ROUGE", arabic: "الأحمر", price: "2,500 MAD", perks: ["Table for 4", "1 Premium Bottle", "Softs & Mixers", "Host Service"], accent: false },
-  { name: "LE NOIR", arabic: "الأسود", price: "5,000 MAD", perks: ["Lodge for 6-8", "2 Premium Bottles", "Priority Entrance", "Personal Host + Security"], accent: true },
-  { name: "LE XO", arabic: "إكس أو", price: "10,000 MAD+", perks: ["Private Mezzanine 10-12", "Champagne & Spirits", "Backstage Access", "Valet & Private Entry"], accent: false },
+  { name: "LE ROUGE", arabic: "الأحمر", price: "2,500 AED", perks: ["Table for 4", "1 Premium Bottle", "Softs & Mixers", "Host Service"], accent: false },
+  { name: "LE NOIR", arabic: "الأسود", price: "5,000 AED", perks: ["Lodge for 6-8", "2 Premium Bottles", "Priority Entrance", "Personal Host + Security"], accent: true },
+  { name: "LE XO", arabic: "إكس أو", price: "10,000 AED+", perks: ["Private Mezzanine 10-12", "Champagne & Spirits", "Backstage Access", "Valet & Private Entry"], accent: false },
 ]
 
 const cocktails = [
-  { name: "XO Crimson Kiss", desc: "Bourbon, raspberry, smoked rose, gold dust", price: "140 MAD" },
-  { name: "Noir Velvet", desc: "Black gin, charcoal, blackberry, velvet foam", price: "160 MAD" },
-  { name: "Akram's Secret", desc: "Moroccan saffron vodka, fig, amber", price: "150 MAD" },
-  { name: "Burgundy Smoke", desc: "Mezcal, cherry, burgundy wine reduction", price: "170 MAD" },
+  { name: "XO Crimson Kiss", desc: "Bourbon, raspberry, smoked rose, gold dust", price: "140 AED" },
+  { name: "Noir Velvet", desc: "Black gin, charcoal, blackberry, velvet foam", price: "160 AED" },
+  { name: "Akram's Secret", desc: "Moroccan saffron vodka, fig, amber", price: "150 AED" },
+  { name: "Burgundy Smoke", desc: "Mezcal, cherry, burgundy wine reduction", price: "170 AED" },
 ]
 
 export default function App() {
@@ -246,7 +246,7 @@ export default function App() {
                 </div>
                 <div className="rounded-2xl bg-[#C41E2F] py-4">
                   <div className="text-[10px] tracking-widest text-white/80">TICKETS</div>
-                  <div className="font-semibold text-white">300 MAD</div>
+                  <div className="font-semibold text-white">300 AED</div>
                 </div>
               </div>
               <a href="#booking" className="mt-6 flex items-center justify-center gap-2 w-full py-4 bg-[#C9A96A] text-black rounded-full text-xs tracking-[0.2em] font-bold hover:bg-[#F5E6C8] transition">RESERVE — طاولة</a>
@@ -419,7 +419,7 @@ export default function App() {
                 </div>
               ))}
             </div>
-            <div className="mt-6 text-[11px] tracking-widest text-[#6B5E5A]">+ FULL CHAMPAGNE & SPIRITS LIST AT TABLE • BOTTLE SERVICE FROM 1,200 MAD</div>
+            <div className="mt-6 text-[11px] tracking-widest text-[#6B5E5A]">+ FULL CHAMPAGNE & SPIRITS LIST AT TABLE • BOTTLE SERVICE FROM 1,200 AED</div>
           </div>
           <div className="grid grid-cols-2 gap-4">
             <img src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=600&q=80" alt="Bar" className="rounded-[24px] h-[360px] object-cover w-full" />
