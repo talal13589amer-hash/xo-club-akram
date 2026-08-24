@@ -194,9 +194,9 @@ export default function App() {
       {/* HERO */}
       <section className="relative min-h-[100vh] flex items-center overflow-hidden pt-[72px]">
         <div className="absolute inset-0">
-          <img src="https://images.unsplash.com/photo-1516450360452-9312abbf6f7e?w=1920&q=80" alt="Club interior" className="w-full h-full object-cover" />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#080608] via-[#080608]/60 to-[#080608]/30" />
-          <div className="absolute inset-0 bg-gradient-to-r from-[#8B0A1A]/40 via-transparent to-transparent" />
+          <img src={`${import.meta.env.BASE_URL}xo-dubai-wall.png`} alt="XO Club Dubai Wall - Where Nights Become Legends" className="w-full h-full object-cover object-center" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#080608] via-[#080608]/70 to-[#080608]/40" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#080608]/60 via-transparent to-transparent" />
           <div className="absolute inset-0 opacity-[0.07]" style={{ backgroundImage: `repeating-linear-gradient(90deg, #C9A96A 0 1px, transparent 1px 120px)` }} />
         </div>
 
