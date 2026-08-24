@@ -268,7 +268,7 @@ export default function App() {
         <div className="max-w-[1280px] mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
           <div className="relative">
             <div className="grid grid-cols-2 gap-4">
-              <img src="https://images.unsplash.com/photo-1566737236500-c8ac43014a67?w=600&q=80" alt="Interior" className="rounded-[24px] h-[420px] object-cover w-full" />
+              <img src={`${import.meta.env.BASE_URL}xoclubakramgallry2.jpg`} alt="XO Club Akram Interior" className="rounded-[24px] h-[420px] object-cover w-full border border-[#C9A96A]/10" />
               <div className="space-y-4">
                 <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=600&q=80" alt="Bottle" className="rounded-[24px] h-[200px] object-cover w-full" />
                 <div className="rounded-[24px] bg-[#C41E2F] p-6 text-white flex flex-col items-start">
