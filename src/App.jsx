@@ -92,7 +92,7 @@ const t = {
 }
 
 const events = [
-  { date: "FRI 29 AUG", title: "CRIMSON RITUAL", dj: "DJ AKRAM B2B MOONLIGHT", genre: "Afro House • Melodic", price: "From 300 MAD", img: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&q=80", featured: true },
+  { date: "FRI 29 AUG", title: "CRIMSON RITUAL", dj: "DJ AKRAM B2B MOONLIGHT", genre: "Afro House • Melodic", price: "From 300 MAD", img: `${import.meta.env.BASE_URL}xo-dubai-wall.png`, featured: true },
   { date: "SAT 30 AUG", title: "VELOUR NOIR", dj: "LUNA & SOFIANE", genre: "Deep House • Vocals", price: "From 250 MAD", img: "https://images.unsplash.com/photo-1516450360452-9312abbf6f7e?w=800&q=80" },
   { date: "THU 04 SEP", title: "GOLDEN HOUR AFTER DARK", dj: "KARIM TULIP", genre: "Disco • Nu Soul", price: "Ladies Free till 11PM", img: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=800&q=80" },
   { date: "FRI 05 SEP", title: "X O N Y X", dj: "SECRET GUEST (BERLIN)", genre: "Techno • Hypnotic", price: "Limited 400 MAD", img: "https://images.unsplash.com/photo-1506157786151-b84915396a32?w=800&q=80" },
@@ -524,7 +524,7 @@ export default function App() {
           </div>
           <div className="mt-12 grid md:grid-cols-3 gap-8">
             {[
-              { tag: "NIGHTS", date: "15 AUG 2026", title: "Inside Crimson Ritual: How XO Reinvented Afro House in Casablanca", img: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=600&q=80", excerpt: "Behind the velvet curtain — the story of our most legendary night." },
+              { tag: "NIGHTS", date: "15 AUG 2026", title: "Inside Crimson Ritual: How XO Reinvented Afro House in Casablanca", img: `${import.meta.env.BASE_URL}xo-dubai-wall.png`, excerpt: "Behind the velvet curtain — the story of our most legendary night." },
               { tag: "MIXOLOGY", date: "08 AUG 2026", title: "The Alchemy of XO: Akram's Secret Saffron Cocktail", img: "https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=600&q=80", excerpt: "Moroccan saffron, fig and amber — the creation of a signature." },
               { tag: "CULTURE", date: "01 AUG 2026", title: "Dress Code Decoded: The Royal Noir Aesthetic", img: "https://images.unsplash.com/photo-1516450360452-9312abbf6f7e?w=600&q=80", excerpt: "Velvet, black and crimson — what to wear to be remembered." },
             ].map(post => (
