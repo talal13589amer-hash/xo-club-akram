@@ -360,7 +360,6 @@ export default function App() {
               <div key={dj.name} className="group">
                 <div className="relative rounded-[28px] overflow-hidden aspect-[3/4] border border-white/5">
                   <img src={dj.img} alt={dj.name} className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition duration-700" onError={(e)=>{e.currentTarget.onerror=null; e.currentTarget.src='https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=600&q=80'}} />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent" />
                   <div className="absolute bottom-0 inset-x-0 p-6">
                     <div className="font-['Cinzel'] text-white tracking-widest">{dj.name}</div>
                     <div className="text-[11px] tracking-widest text-[#C9A96A]">{dj.role}</div>
