@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://talal13589amer-hash.github.io/xo-club-akram/sitemap.xml
+Sitemap: https://xo-club-akram.pages.dev/sitemap.xml
