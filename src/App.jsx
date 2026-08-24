@@ -233,8 +233,7 @@ export default function App() {
                 <span className="text-[11px] tracking-[0.3em] text-[#C9A96A]">TONIGHT • FRI 29 AUG</span>
                 <span className="px-3 py-1 rounded-full bg-[#C41E2F] text-white text-[10px] tracking-widest">LIVE</span>
               </div>
-              <img src={`${import.meta.env.BASE_URL}xo-dubai-wall.png`} alt="XO Club Dubai - Tonight Crimson Ritual" className="w-full h-[280px] object-cover rounded-2xl border border-[#C9A96A]/10" />
-              <h3 className="mt-6 font-['Cinzel'] text-2xl tracking-widest text-white">CRIMSON RITUAL</h3>
+              <h3 className="mt-2 font-['Cinzel'] text-2xl tracking-widest text-white">CRIMSON RITUAL</h3>
               <p className="text-sm text-[#9A8B86] tracking-widest mt-1">DJ AKRAM B2B MOONLIGHT • AFRO HOUSE</p>
               <div className="mt-6 grid grid-cols-3 gap-3 text-center">
                 <div className="rounded-2xl bg-white/[0.04] border border-white/10 py-4">
