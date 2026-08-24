@@ -95,7 +95,7 @@ const events = [
   { date: "FRI 29 AUG", title: "CRIMSON RITUAL", dj: "DJ AKRAM B2B MOONLIGHT", genre: "Afro House • Melodic", price: "From 300 MAD", img: `${import.meta.env.BASE_URL}xo-dubai-wall.png`, featured: true },
   { date: "SAT 30 AUG", title: "VELOUR NOIR", dj: "LUNA & SOFIANE", genre: "Deep House • Vocals", price: "From 250 MAD", img: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=800&q=80" },
   { date: "THU 04 SEP", title: "GOLDEN HOUR AFTER DARK", dj: "KARIM TULIP", genre: "Disco • Nu Soul", price: "Ladies Free till 11PM", img: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=800&q=80" },
-  { date: "FRI 05 SEP", title: "X O N Y X", dj: "SECRET GUEST (BERLIN)", genre: "Techno • Hypnotic", price: "Limited 400 MAD", img: "https://images.unsplash.com/photo-1429962714451-bb934ecdc560?w=800&q=80" },
+  { date: "FRI 05 SEP", title: "X O N Y X", dj: "SECRET GUEST (BERLIN)", genre: "Techno • Hypnotic", price: "Limited 400 MAD", img: "https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=800&q=80" },
 ]
 
 const djs = [
