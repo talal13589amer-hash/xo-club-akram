@@ -464,7 +464,7 @@ export default function App() {
             <p className="mt-8 text-[11px] leading-relaxed text-[#6B5E5A]">By reserving you accept selective door policy. Elegant dress required. Management reserves right to refuse entry. No refunds for no-shows.</p>
           </div>
 
-          <form onSubmit={e => { e.preventDefault(); setFormSent(true); setTimeout(() => setFormSent(false), 5000) }} className="glass rounded-[32px] p-6 md:p-10 space-y-5 bg-[#120a0c]/60">
+          <form onSubmit={e => { e.preventDefault(); const text = `*XO CLUB AKRAM - TABLE RESERVATION*\n\n*Name:* ${form.name}\n*Phone:* ${form.phone}\n*Guests:* ${form.guests}\n*Date:* ${form.date || 'ASAP'}\n*Table:* ${form.table}\n*Message:* ${form.msg || '-'}\n\nSent from xo-club-akram.com`; window.open(`https://wa.me/212507773051?text=${encodeURIComponent(text)}`, '_blank'); setFormSent(true); setTimeout(() => setFormSent(false), 6000) }} className="glass rounded-[32px] p-6 md:p-10 space-y-5 bg-[#120a0c]/60">
             {formSent && <div className="rounded-2xl bg-[#0a5d2a] text-white px-6 py-4 text-sm text-center">✓ {tr.form_success}</div>}
             <div className="grid md:grid-cols-2 gap-5">
               <label className="space-y-2">
