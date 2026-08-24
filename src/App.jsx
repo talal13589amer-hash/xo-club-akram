@@ -233,7 +233,7 @@ export default function App() {
                 <span className="text-[11px] tracking-[0.3em] text-[#C9A96A]">TONIGHT • FRI 29 AUG</span>
                 <span className="px-3 py-1 rounded-full bg-[#C41E2F] text-white text-[10px] tracking-widest">LIVE</span>
               </div>
-              <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&q=80" alt="Tonight event" className="w-full h-[280px] object-cover rounded-2xl" />
+              <img src={`${import.meta.env.BASE_URL}xo-dubai-wall.png`} alt="XO Club Dubai - Tonight Crimson Ritual" className="w-full h-[280px] object-cover rounded-2xl border border-[#C9A96A]/10" />
               <h3 className="mt-6 font-['Cinzel'] text-2xl tracking-widest text-white">CRIMSON RITUAL</h3>
               <p className="text-sm text-[#9A8B86] tracking-widest mt-1">DJ AKRAM B2B MOONLIGHT • AFRO HOUSE</p>
               <div className="mt-6 grid grid-cols-3 gap-3 text-center">
@@ -426,7 +426,7 @@ export default function App() {
           <div className="grid grid-cols-2 gap-4">
             <img src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=600&q=80" alt="Bar" className="rounded-[24px] h-[360px] object-cover w-full" />
             <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=600&q=80" alt="Cocktail" className="rounded-[24px] h-[360px] object-cover w-full" />
-            <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=800&q=80" alt="Crowd dancing at XO" className="rounded-[24px] h-[220px] object-cover w-full col-span-2" />
+            <img src={`${import.meta.env.BASE_URL}xo-dubai-wall.png`} alt="XO Club Dubai Wall - Where Nights Become Legends" className="rounded-[24px] h-[220px] object-cover w-full col-span-2 border border-[#C9A96A]/10" onError={(e)=>{e.currentTarget.src='https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=800&q=80'}} />
           </div>
         </div>
       </section>
